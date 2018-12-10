@@ -22,7 +22,7 @@ ACCOUNT_KEY = "5V1gUjiCjoOBozvQf6wTHHnQDFqylAwnDPyAdwkMhEb0vke//ckkj+B06Z8YaoO2I
 
 run = Run.get_context(allow_offline = True) # Get Run object from context 
 
-run.log('Starting Model Building', time.asctime(time.localtime(time.time()))) 
+run.log('Starting Model Training', time.asctime(time.localtime(time.time()))) 
 run.tag('Description', 'Model Building') 
 tic = time.time()
 

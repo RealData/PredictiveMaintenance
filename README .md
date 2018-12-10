@@ -40,4 +40,4 @@ Job can be submitted to different Targets:
  - `amlcompute.runconfig`  
  - `cluster.runconfig` 
 
-Training model script is in `train.py` file. To run job on a Compute Target `SubmitRun.ipynb` notebook can be used. 
+Training model script is in `train.py` file. To run job on a Compute Target `Submit_Run.ipynb` notebook or `Submit_Run.py` script can be used. 
